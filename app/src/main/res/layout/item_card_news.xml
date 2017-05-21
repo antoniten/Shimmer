@@ -23,7 +23,7 @@
             android:src="@mipmap/ic_launcher"/>
 
         <LinearLayout
-            android:background="@drawable/button_style"
+            android:background="@color/colorAccent"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical">
@@ -79,10 +79,15 @@
                 android:paddingLeft="0dp"
                 android:paddingTop="3dp"
                 android:paddingBottom="3dp"
-                android:background="@drawable/background_header"
+
                 android:text="Имя автора" />
 
         </RelativeLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@drawable/button_style"
+                />
         </LinearLayout>
     </LinearLayout>
 
